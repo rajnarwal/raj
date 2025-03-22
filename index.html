@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Raj<span>Cyber</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn">Login</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">&#9776;</div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fast & Reliable <span>Online Services</span></h1>
+            <p>Apply for PAN, Aadhaar, Voter ID & More with Ease. Get your work done quickly and securely!</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    
+    <section class="services">
+        <h2>Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <img src="image/sample-pan-card.jpg" alt="">
+                <i class="fas fa-id-card"></i>
+                <h3>PAN Card</h3>
+                <p>Apply for a new PAN card or update your details online.</p>
+            </div>
+            <div class="service-box">
+                <img src="image/aadhaar.jpg" alt="">
+                <i class="fas fa-fingerprint"></i>
+                <h3>Aadhaar Card</h3>
+                <p>Get your Aadhaar card issued or updated without hassle.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-vote-yea"></i>
+                <h3>Voter ID</h3>
+                <p>Apply for a Voter ID or make necessary corrections easily.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-university"></i>
+                <h3>Government Work</h3>
+                <p>Fast and secure processing for various government services.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>School & College</h3>
+                <p>Documents and applications for school and college work.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-file-invoice"></i>
+                <h3>Utility Services</h3>
+                <p>Bill payments, certificates, and other utility services.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+
+<section class="why-choose-us">
+    <h2>Why <span>Choose Us?</span></h2>
+    <p class="subtitle">We provide fast, secure, and reliable online services to make your life easier.</p>
+    <div class="why-container">
+        <div class="why-box">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Processing</h3>
+            <p>We ensure quick processing of your applications with minimal delays.</p>
+        </div>
+        <div class="why-box">
+            <i class="fas fa-lock"></i>
+            <h3>Secure & Trusted</h3>
+            <p>Your data is fully encrypted and handled with the highest security standards.</p>
+        </div>
+        <div class="why-box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Our dedicated support team is available anytime to assist you.</p>
+        </div>
+        <div class="why-box">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>100% Satisfaction</h3>
+            <p>We guarantee top-quality service with the best customer experience.</p>
+        </div>
+    </div>
+</section>
+<section class="how-it-works">
+    <h2>How <span>It Works</span></h2>
+    <p class="subtitle">Follow these simple steps to complete your application process quickly.</p>
+    <div class="steps-container">
+        <div class="step-box">
+            <i class="fas fa-user-edit"></i>
+            <h3>Step 1: Register</h3>
+            <p>Create an account and provide your details to get started.</p>
+        </div>
+        <div class="step-box">
+            <i class="fas fa-file-upload"></i>
+            <h3>Step 2: Submit Documents</h3>
+            <p>Upload the required documents securely through our platform.</p>
+        </div>
+        <div class="step-box">
+            <i class="fas fa-check-circle"></i>
+            <h3>Step 3: Verification</h3>
+            <p>We verify your documents and process your request efficiently.</p>
+        </div>
+        <div class="step-box">
+            <i class="fas fa-envelope-open-text"></i>
+            <h3>Step 4: Receive Confirmation</h3>
+            <p>Get notified once your application is approved and processed.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonials">
+    <h2>What Our <span>Clients Say</span></h2>
+    <p class="subtitle">Trusted by thousands of satisfied clients across India.</p>
+    <div class="testimonials-container">
+        <div class="testimonial-box">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1">
+            <h3>Rahul Sharma</h3>
+            <p>"The service was fast and reliable! I got my PAN card updated without any hassle."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 2">
+            <h3>Neha Verma</h3>
+            <p>"Excellent customer support! They guided me through the Aadhaar update process smoothly."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Client 3">
+            <h3>Amit Gupta</h3>
+            <p>"Highly professional service! Got my Voter ID without any delays. Definitely recommend!"</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <h2>Contact <span>Us</span></h2>
+    <p class="subtitle">Feel free to reach out to us for any queries or assistance.</p>
+    
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="contact-map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.9556515159046!3d-37.81724897975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df0a6a9e3%3A0x5045675218cd7b0!2sMelbourne%2C%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1615986302023!5m2!1sen!2sin" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>We provide hassle-free online services for PAN, Aadhaar, Voter ID, and other government-related work.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> support@example.com</p>
+            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Online Services. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
